@@ -15,8 +15,8 @@ const Portfolio = () => {
                 </div>
                 <Row xs={1} sm={2} md={2} lg={3} className={'p-5 g-4 d-flex justify-content-center card-deck'}>
                     <Col>
-                        <Card className={'overflow-hidden p-0 border-0 bg-skeendeep-overlay portfolio-card'}>
-                            <Card.Img height={260+'px'} src={bg1} />
+                        <Card className={'overflow-hidden p-0 border-0 bg-skeendeep-overlay'}>
+                            <Card.Img src={bg1} />
                             <Card.ImgOverlay className={'text-light hide text-start'} height={100+'%'}>
                                     <h4>Skeendeep Medical Aesthetics</h4>
                                     <p>Skeendeep Medical Aesthetics is a health and dermatology brand that provides expert consultation and dermatological procedures to the POC market.
@@ -29,7 +29,7 @@ const Portfolio = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card className={'overflow-hidden p-0 border-0 bg-icl-overlay portfolio-card'}>
+                        <Card className={'overflow-hidden p-0 border-0 bg-icl-overlay'}>
                             <Card.Img width={'auto'} src={bg2} />
                             <Card.ImgOverlay className={'text-light hide text-start'} height={100+'%'}>
                                     <h4>Ice Cold Lemon</h4>
@@ -43,8 +43,8 @@ const Portfolio = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card className={'overflow-hidden p-0 border-0 bg-talaria-overlay portfolio-card'}>
-                            <Card.Img height={260+'px'} src={bg3} />
+                        <Card className={'overflow-hidden p-0 border-0 bg-talaria-overlay'}>
+                            <Card.Img src={bg3} />
                             <Card.ImgOverlay className={'text-light hide text-start'} height={100+'%'}>
                                     <h4>Talaria Consignment System</h4>
                                     <p>The Talaria Consignment System is built to provide small consignment stores a means of competing with larger more established brands such as goat and stockX.
@@ -59,7 +59,7 @@ const Portfolio = () => {
                     <Col>
                         <Card className={'overflow-hidden p-0 border-0 bg-bigdomain-overlay'}>
                             <Card.Img src={bg4} />
-                            <Card.ImgOverlay className={'text-light hide text-start'} height={100+'%'}>
+                            <Card.ImgOverlay className={'text-light hide text-start'}>
                                     <h4>BIGdomain.eth</h4>
                                     <p>BIGDomain.eth allows users to mint their own NFT domain names on the ENS that can then be used and traded on nft marketplaces.
                                     <br />
@@ -72,7 +72,7 @@ const Portfolio = () => {
                     <Col>
                         <Card className={'overflow-hidden p-0 border-0 bg-bigdomain-overlay'}>
                             <Card.Img src={bg5} />
-                            <Card.ImgOverlay className={'text-light hide text-start'} height={100+'%'}>
+                            <Card.ImgOverlay className={'text-light hide text-start'}>
                                     <h4>Third Year Project: Blockchain EHR system</h4>
                                     <p>For my third year university project i will be creating an electronic health records system on the blockchain and simultation the tasks of a fictional GP.
                                     <br />

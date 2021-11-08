@@ -9,8 +9,6 @@ import {
     Link
 } from "react-router-dom"
 import Portfolio from "./Views/Pages/Portfolio";
-import {Button} from "react-bootstrap";
-import Services from "./Views/Pages/Services";
 import Contact from "./Views/Pages/Contact";
 
 const App = () => {

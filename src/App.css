@@ -1,3 +1,9 @@
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -50,7 +56,7 @@
   transform: translateY(-50%);
 }
 
-btn-primary {
+.btn-primary {
   background-color: #4210CF;
 }
 
@@ -87,13 +93,13 @@ btn-primary {
 
 @keyframes gradient {
   0% {
-    background-position: 0% 50%;
+    background-position: 0 50%;
   }
   50% {
     background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 50%;
+    background-position: 0 50%;
   }
 }
 .portfolio-card {
@@ -109,6 +115,10 @@ btn-primary {
 .btn-primary:hover {
   background-color: #774CF2;
   border-color: #774CF2;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 /*# sourceMappingURL=App.css.map */

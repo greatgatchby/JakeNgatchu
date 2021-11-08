@@ -1,12 +1,11 @@
 import React from 'react'
-import Navigation from "./Views/Layout/Nav";
-import Body from "./Views/Layout/Body";
+import Navigation from "./Views/Nav";
+// eslint-disable-next-line no-unused-vars
 import styles from './App.css'
 import Home from './Views/Pages/Home'
 import {
     Routes,
     Route,
-    Link
 } from "react-router-dom"
 import Portfolio from "./Views/Pages/Portfolio";
 import Contact from "./Views/Pages/Contact";

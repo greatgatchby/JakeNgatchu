@@ -1,15 +1,15 @@
 import React from 'react'
-import { Row, Button, Navbar, Container, NavDropdown, Nav, Col } from 'react-bootstrap'
-import logo from '../../asset/logo.jpg'
+import { Button, Navbar, Container, Nav} from 'react-bootstrap'
+import logo from '../asset/logo.jpg'
 import {Github, Linkedin} from "react-bootstrap-icons";
-import CV from '../../asset/CV.pdf'
+import CV from '../asset/CV.pdf'
 const Navigation = () => {
     return(
         <>
             <Navbar bg="light" expand="lg" className={'justify-content-start'}>
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Brand href="/"><img width='30' height='30' className={'mx-2 rounded-circle shadow-lg'} src={logo} />Jake Ngatchu</Navbar.Brand>
+                    <Navbar.Brand href="/"><img width='30' height='30' className={'mx-2 rounded-circle shadow-lg'} src={logo}  alt={'logo: jn in square at 90 degrees'}/>Jake Ngatchu</Navbar.Brand>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="/portfolio">Projects</Nav.Link>

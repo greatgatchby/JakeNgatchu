@@ -1,7 +1,5 @@
 import React from 'react'
 import {Col, Card, Row, Container} from "react-bootstrap";
-import bg1 from '../../asset/3340487.jpg'
-import bg2 from '../../asset/4880390.jpg'
 const Services = () => {
     return (
         <>

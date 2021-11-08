@@ -12,6 +12,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -41,7 +42,6 @@
   animation: gradient 15s ease infinite;
   height: 100vh;
 }
-
 .vertical-center {
   margin: 0;
   position: absolute;
@@ -49,42 +49,34 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
-btn-primary {
+btn-primary{
   background-color: #4210CF;
 }
-
-.hide {
-  display: none;
+.hide{
+  display: none
 }
-
-.bg-skeendeep-overlay:hover > .hide {
+.bg-skeendeep-overlay:hover > .hide{
   display: block;
-  background: rgba(174, 115, 105, 0.7);
+  background: rgba(174,115,105,0.7)
 }
-
-.bg-icl-overlay:hover > .hide {
+.bg-icl-overlay:hover > .hide{
   display: block;
-  background: rgba(56, 182, 255, 0.7);
+  background: rgba(56,182,255,0.7)
 }
-
-.bg-talaria-overlay:hover > .hide {
+.bg-talaria-overlay:hover > .hide{
   display: block;
-  background: rgba(2, 6, 0, 0.7);
+  background: rgba(2,6,0,0.7);
   color: black;
 }
-
-.bg-bigdomain-overlay:hover > .hide {
+.bg-bigdomain-overlay:hover > .hide{
   display: block;
-  background: rgba(179, 233, 191, 0.7);
+  background: rgba(179,233,191,0.7);
   color: black;
 }
-
-.bg-overlay:hover > .hide {
+.bg-overlay:hover > .hide{
   display: block;
-  background: rgba(66, 16, 207, 0.7);
+  background: rgba(66,16,207,0.7)
 }
-
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -96,19 +88,17 @@ btn-primary {
     background-position: 0% 50%;
   }
 }
-.portfolio-card {
+.portfolio-card{
   height: 260px;
   overflow: hidden;
 }
-
-.btn-primary {
+.btn-primary{
   background-color: #4210CF;
   border-color: #4210CF;
 }
-
-.btn-primary:hover {
+.btn-primary:hover{
   background-color: #774CF2;
   border-color: #774CF2;
 }
 
-/*# sourceMappingURL=App.css.map */
+

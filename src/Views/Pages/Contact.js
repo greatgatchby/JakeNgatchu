@@ -13,19 +13,19 @@ const Contact = () => {
                                     <Form.Label>
                                         Email
                                     </Form.Label>
-                                    <Form.Control></Form.Control>
+                                    <Form.Control/>
                                 </Form.Group>
                                 <Form.Group>
                                     <Form.Label>
                                         Subject
                                     </Form.Label>
-                                    <Form.Control></Form.Control>
+                                    <Form.Control />
                                 </Form.Group>
                                 <Form.Group className={'mb-4'}>
                                     <Form.Label>
                                         Message
                                     </Form.Label>
-                                    <Form.Control as={'textarea'} rows={10}></Form.Control>
+                                    <Form.Control as={'textarea'} rows={10} />
                                 </Form.Group>
                                 <Button type={'submit'}>Send</Button>
                             </Form>

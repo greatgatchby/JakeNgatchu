@@ -24,7 +24,8 @@ const Portfolio = () => {
                                     <br />
                                     I worked closely with the brand to provide a new website as well as a digital marketing and content strategy complete with social media management.
                                     </p>
-                                <a href={'http://skeendeep.co.uk'} className={'stretched-link'}></a>
+                                {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+                                <a href={'http://skeendeep.co.uk'} className={'stretched-link'} />
                             </Card.ImgOverlay>
                         </Card>
                     </Col>
@@ -38,7 +39,8 @@ const Portfolio = () => {
                                     <br />
                                     During this project I devised the business mission vision and strategies and oversaw the entire project as the CEO.
                                     </p2>
-                                <a href={'http://icecoldlemon.com'} className={'stretched-link'}></a>
+                                {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+                                <a href={'http://icecoldlemon.com'} className={'stretched-link'} />
                             </Card.ImgOverlay>
                         </Card>
                     </Col>
@@ -52,7 +54,8 @@ const Portfolio = () => {
                                     <br />
                                     Working with a small team of developers a front-end application and back-end API were produced
                                     </p>
-                                <a href={'https://talaria.io'} className={'stretched-link'}></a>
+                                {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+                                <a href={'https://talaria.io'} className={'stretched-link'}/>
                             </Card.ImgOverlay>
                         </Card>
                     </Col>
@@ -65,7 +68,8 @@ const Portfolio = () => {
                                     <br />
                                     <br />
                                     Allows user to mint different domains that can be used on the ethereum network. The available domains include: .xyz .eth and  </p>
-                                <a href={'http://BIGdomains.io'} className={'stretched-link'}></a>
+                                {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+                                <a href={'http://BIGdomains.io'} className={'stretched-link'} />
                             </Card.ImgOverlay>
                         </Card>
                     </Col>
@@ -77,7 +81,6 @@ const Portfolio = () => {
                                     <p>For my third year university project i will be creating an electronic health records system on the blockchain and simultation the tasks of a fictional GP.
                                     <br />
                                     The goal of this project is to build a patient centric health records system that will dramatically improve things such as continuity of care and viral tracking in countries such as Cameroon.</p>
-                                <a href={'http://BIGdomains.io'} className={'stretched-link'}></a>
                             </Card.ImgOverlay>
                         </Card>
                     </Col>

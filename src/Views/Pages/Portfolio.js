@@ -13,7 +13,7 @@ const Portfolio = () => {
                 <div className={'text-center mt-3'}>
                     <h1>Here are some of my projects. 💻</h1>
                 </div>
-                <Row xs={1} sm={2} md={2} lg={3} className={'p-5 g-4 d-flex justify-content-center'}>
+                <Row xs={1} sm={2} md={2} lg={3} className={'p-5 g-4 d-flex justify-content-center card-deck'}>
                     <Col>
                         <Card className={'overflow-hidden p-0 border-0 bg-skeendeep-overlay portfolio-card'}>
                             <Card.Img height={260+'px'} src={bg1} />

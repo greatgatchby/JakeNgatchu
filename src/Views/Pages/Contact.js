@@ -32,6 +32,7 @@ const Contact = () => {
                                     </Form.Label>
                                     <Form.Control name={'message'} as={'textarea'} rows={10} />
                                 </Form.Group>
+                                <input type="hidden" name="form-name" value="contact" />
                                 <Button type={'submit'}>Send</Button>
                             </Form>
                         </Card>

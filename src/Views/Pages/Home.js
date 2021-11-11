@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 const Home = () => {
     return(
-        <Container fluid height={100+'vh'} className={'bg-change'}>
+        <Container fluid height={100+'vh'} className={'bg-change pt-10vh'}>
             <Row className={'vertical-center d-flex justify-content-center text-start'}>
                 <Col md={6} className={'align-self-center'}>
                     <h1>
@@ -13,10 +13,10 @@ const Home = () => {
                         Third Year at Keele University. 🎓
                     </h1>
                     <Link to={'/portfolio'}>
-                        <Button className={'me-2'}>Take a look at my projects</Button>
+                        <Button className={'me-2 mb-2'}>Take a look at my projects</Button>
                     </Link>
                     <a href={'https://github.com/greatgatchby'} target={'blank'}>
-                        <Button className={'btn-secondary'}>View My github</Button>
+                        <Button className={'btn-secondary mb-2'}>View My github</Button>
                     </a>
                 </Col>
             </Row>

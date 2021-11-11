@@ -8,24 +8,29 @@ const Contact = () => {
                 <Row className="d-flex  justify-content-center text-start">
                     <Col md={6}>
                         <Card className={'p-4'}>
-                            <Form netlify action={'mailto:jngatchu@gmail.com'} method={'GET'}>
+                            <Form name={'contact'} action={'mailto:jngatchu@gmail.com'} method={'GET'} data-netlify="true">
                                 <Form.Group>
+                                    <Form.Label>
+                                        Name
+                                    </Form.Label>
+                                    <Form.Control name={'email'}/>
+                                </Form.Group><Form.Group>
                                     <Form.Label>
                                         Email
                                     </Form.Label>
-                                    <Form.Control/>
+                                    <Form.Control name={'email'}/>
                                 </Form.Group>
                                 <Form.Group>
                                     <Form.Label>
                                         Subject
                                     </Form.Label>
-                                    <Form.Control />
+                                    <Form.Control name={'subject'}/>
                                 </Form.Group>
                                 <Form.Group className={'mb-4'}>
                                     <Form.Label>
                                         Message
                                     </Form.Label>
-                                    <Form.Control as={'textarea'} rows={10} />
+                                    <Form.Control name={'message'} as={'textarea'} rows={10} />
                                 </Form.Group>
                                 <Button type={'submit'}>Send</Button>
                             </Form>

@@ -8,7 +8,7 @@ const Contact = () => {
                 <Row className="d-flex  justify-content-center text-start">
                     <Col md={6}>
                         <Card className={'p-4'}>
-                            <Form name={'contact'} action={'mailto:jngatchu@gmail.com'} method={'GET'} data-netlify="true">
+                            <Form name={'contact'} data-netlify="true">
                                 <Form.Group>
                                     <Form.Label>
                                         Name

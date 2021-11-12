@@ -8,17 +8,17 @@ const Contact = () => {
                 <Row className="d-flex  justify-content-center text-start">
                     <Col md={6}>
                         <Card className={'p-4'}>
-                            <Form name={'contact'} action="mailto:jngatchu@gmail.com" method="get" enctype="text/plain">
+                            <Form autoComplete={'on'} name={'contact'} action="mailto:jngatchu@gmail.com" method="get" enctype="text/plain">
                                 <Form.Group>
                                     <Form.Label>
                                         Name
                                     </Form.Label>
-                                    <Form.Control name={'email'}/>
+                                    <Form.Control autocomplete={'name'} name={'name'}/>
                                 </Form.Group><Form.Group>
                                     <Form.Label>
                                         Email
                                     </Form.Label>
-                                    <Form.Control name={'email'}/>
+                                    <Form.Control autocomplete={'email'} name={'email'}/>
                                 </Form.Group>
                                 <Form.Group>
                                     <Form.Label>

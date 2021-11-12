@@ -45,7 +45,7 @@ const Portfolio = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card className={'overflow-hidden p-0 border-0 bg-talaria-overlay'}>
+                        <Card className={'overflow-auto p-0 border-0 bg-talaria-overlay'}>
                             <Card.Img src={bg3} />
                             <Card.ImgOverlay className={'text-light hide text-start'} height={100+'%'}>
                                     <h4>Talaria Consignment System</h4>
@@ -60,7 +60,7 @@ const Portfolio = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card className={'overflow-hidden p-0 border-0 bg-bigdomain-overlay'}>
+                        <Card className={'overflow-auto p-0 border-0 bg-bigdomain-overlay'}>
                             <Card.Img src={bg4} />
                             <Card.ImgOverlay className={'text-light hide text-start'}>
                                     <h4>BIGdomain.eth</h4>
@@ -74,7 +74,7 @@ const Portfolio = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card className={'overflow-hidden p-0 border-0 bg-bigdomain-overlay'}>
+                        <Card className={'overflow-auto p-0 border-0 bg-bigdomain-overlay'}>
                             <Card.Img src={bg5} />
                             <Card.ImgOverlay className={'text-light hide text-start'}>
                                     <h4>Third Year Project: Blockchain EHR system</h4>

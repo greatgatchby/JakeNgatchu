@@ -9,6 +9,7 @@ import {
 } from "react-router-dom"
 import Portfolio from "./Views/Pages/Portfolio";
 import Contact from "./Views/Pages/Contact";
+import ComingSoon from "./Views/Pages/ComingSoon";
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
                     <Route path={'/'} element={<Home />}/>
                     <Route path={'/portfolio'} element={<Portfolio />}/>
                     <Route path={'/contact'} element={<Contact />}/>
+                    <Route path={'/comingSoon'} element={<ComingSoon />}/>
                 </Routes>
             </div>
         </>

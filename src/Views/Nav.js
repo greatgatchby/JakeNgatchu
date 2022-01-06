@@ -2,7 +2,6 @@ import React from 'react'
 import { Button, Navbar, Container, Nav} from 'react-bootstrap'
 import logo from '../asset/logo.jpg'
 import {Github, Linkedin} from "react-bootstrap-icons";
-import CV from '../asset/CV.pdf'
 const Navigation = () => {
     return(
         <>

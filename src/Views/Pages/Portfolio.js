@@ -3,7 +3,7 @@ import {Card, Col, Container, Row} from "react-bootstrap";
 import bg1 from "../../asset/skeendeep_website_mockup.png";
 import bg2 from "../../asset/1.png"
 import bg3 from "../../asset/89927.png"
-import bg4 from "../../asset/BIGdomain.png"
+//import bg4 from "../../asset/BIGdomain.png"
 import bg5 from "../../asset/EHR.png"
 import {Link} from "react-router-dom";
 
@@ -44,9 +44,9 @@ const Portfolio = () => {
                                     During this project I devised the business mission vision and strategies and oversaw
                                     the entire project as the CEO.
                                 </p2>
-                                {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
                             </Card.ImgOverlay>
-                            <a href={'https://www.icecoldlemon.com'} className={'stretched-link'}/>
+                            {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+                            <a href={'https://www.icecoldlemon.com'} className={'stretched-link'} />
                         </Card>
                     </Col>
                     <Col>

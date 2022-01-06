@@ -8,8 +8,8 @@ const Home = () => {
             <Row className={'vertical-center d-flex justify-content-center text-start'}>
                 <Col md={6} className={'align-self-center'}>
                     <h1>
-                        👋 Hi, my name is Jake Ngatchu. I like web develeopment and blockchain technologies. I am a
-                        Business Management and Computer Science Student at Keele University and I am currently in my
+                        Hi 👋, my name is Jake Ngatchu. I like web develeopment and blockchain technologies. I am a
+                        Business Management and Computer Science student at Keele University and I am currently in my
                         third year at Keele University. 🎓
                     </h1>
                     <Link to={'/portfolio'}>

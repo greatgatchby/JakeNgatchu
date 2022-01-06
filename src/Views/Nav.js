@@ -6,7 +6,7 @@ import CV from '../asset/CV.pdf'
 const Navigation = () => {
     return(
         <>
-            <Navbar bg="light" expand="lg" className={'justify-content-start sticky-top'}>
+            <Navbar bg="dark" expand="lg" className={'justify-content-start sticky-top navbar-dark'}>
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Brand href="/"><img width='30' height='30' className={'mx-2 rounded-circle shadow-lg'} src={logo}  alt={'logo: jn in square at 90 degrees'}/>Jake Ngatchu</Navbar.Brand>
@@ -16,7 +16,7 @@ const Navigation = () => {
                             <Nav.Link href="/portfolio">Projects</Nav.Link>
                             <Nav.Link href="/contact">Contact</Nav.Link>
                         </Nav>
-                        <a href={CV}><Button className={'btn btn-primary px-5 me-2'}>CV</Button></a>
+                        <a href={'https://www.fiverr.com/share/7WQXv1'}><Button className={'btn btn-primary px-5 me-2'}>Hire Me</Button></a>
                         <a href={'https://github.com/greatgatchby'}><Button className={'me-2'}><Github /></Button></a>
                         <a href={'https://www.linkedin.com/in/jake-ngatchu-9a7868115/'}> <Button className={'me-2'}><Linkedin /></Button></a>
                     </Navbar.Collapse>

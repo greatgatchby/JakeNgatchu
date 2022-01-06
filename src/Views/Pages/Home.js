@@ -8,9 +8,9 @@ const Home = () => {
             <Row className={'vertical-center d-flex justify-content-center text-start'}>
                 <Col md={6} className={'align-self-center'}>
                     <h1>
-                        👋 Hi. My Name is Jake Ngatchu. I like Web develeopment and blockchain technologies. I am a
-                        Business Management and Computer Science Student at Keele University and I am Currently In my
-                        Third Year at Keele University. 🎓
+                        👋 Hi, my name is Jake Ngatchu. I like web develeopment and blockchain technologies. I am a
+                        Business Management and Computer Science Student at Keele University and I am currently in my
+                        third year at Keele University. 🎓
                     </h1>
                     <Link to={'/portfolio'}>
                         <Button className={'me-2 mb-2'}>Take a look at my projects</Button>

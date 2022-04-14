@@ -50,7 +50,6 @@ const Portfolio = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <a href={'https://talaria.netlify.app'}>
                             <Card className={'overflow-auto p-0 border-0 bg-talaria-overlay'}>
                                 <Card.Img src={bg3}/>
                                 <Card.ImgOverlay className={'text-light hide text-start'} height={100 + '%'}>
@@ -63,10 +62,9 @@ const Portfolio = () => {
                                         were produced
                                     </p>
                                     {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
-                                    <a href={'https://talaria.io'} className={'stretched-link'}/>
+                                    <a href={'https://talaria.netlify.app'} className={'stretched-link'}/>
                                 </Card.ImgOverlay>
                             </Card>
-                        </a>
                     </Col>
                     {/*<Col>
                         <Link to={'/comingsoon'}>

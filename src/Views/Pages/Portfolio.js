@@ -50,7 +50,7 @@ const Portfolio = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Link to={'https://talaria.netlify.app/#home'}>
+                        <Link to={'https://talaria.netlify.app/'}>
                             <Card className={'overflow-auto p-0 border-0 bg-talaria-overlay'}>
                                 <Card.Img src={bg3}/>
                                 <Card.ImgOverlay className={'text-light hide text-start'} height={100 + '%'}>

@@ -2,7 +2,7 @@ import React from "react";
 import {Card, Col, Container, Row} from "react-bootstrap";
 import bg1 from "../../asset/skeendeep_website_mockup.png";
 import bg2 from "../../asset/1.png"
-import bg3 from "../../asset/89927.png"
+import bg3 from "../../asset/talaria-landing-page.png"
 //import bg4 from "../../asset/BIGdomain.png"
 import bg5 from "../../asset/EHR.png"
 import {Link} from "react-router-dom";
@@ -42,7 +42,7 @@ const Portfolio = () => {
                                     <br/>
                                     <br/>
                                     During this project I devised the business mission vision and strategies and oversaw
-                                    the entire project as the CEO.
+                                    the entire project as the Managing Director.
                                 </p2>
                             </Card.ImgOverlay>
                             {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
@@ -50,7 +50,7 @@ const Portfolio = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Link to={'/comingsoon'}>
+                        <Link to={'https://talaria.netlify.app/#home'}>
                             <Card className={'overflow-auto p-0 border-0 bg-talaria-overlay'}>
                                 <Card.Img src={bg3}/>
                                 <Card.ImgOverlay className={'text-light hide text-start'} height={100 + '%'}>

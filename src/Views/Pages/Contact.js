@@ -6,6 +6,9 @@ const Contact = () => {
         <>
             <Container className={'pt-5'}>
                 <Row className="d-flex  justify-content-center text-start">
+                    <div className={'text-center'}>
+                        <h1>Contact Me</h1>
+                    </div>
                     <Col md={6}>
                         <Card className={'p-4'}>
                             <Form autoComplete={'on'} name={'contact'} action="mailto:jngatchu@gmail.com" method="get" enctype="text/plain">
